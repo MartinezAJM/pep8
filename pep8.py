@@ -1,10 +1,18 @@
-class User():
+# CamelCase
+class UserAdmin():
 
-    def __init__(self,username, password=''):
-    self.username = username
-    self.password = password
+
+    # identacion: 4 espacios no tabs
+
+
+    def __init__(self, username, password = '') :
+        self.username = username
+        self.password = password
+
 
     def set_password(self):
         pass
-
-    codyuser = user('Cody')
+    # snake_case: minusculas y separar con _
+    # espacios entre operadores
+    cody_user = userAdmin('Cody')
+    
